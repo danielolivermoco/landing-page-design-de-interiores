@@ -301,8 +301,7 @@
 
 /* Mobile */
 
-@media screen and (max-width: 450px) {
-
+@media screen and (max-width: 1024px) {
     .btn {
         opacity: 1;
     }
@@ -316,8 +315,120 @@
         padding: 2em;
     }
 
-    #disclaimer h2 {
+    #disclaimer h2, #disclaimer p  {
         margin-bottom: 0.5em;
+        text-align: center;
+    }
+
+    #subscription-form {
+        max-width: 60%;
+        margin-bottom: 2em;
+    }
+
+    .benefits {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        padding: 2em;
+    }
+
+    .benefit {
+        max-width: 100%;
+        margin-bottom: 2em;
+    }
+
+    #location {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 2em 0;
+    }
+
+    #address {
+        order: 2;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    #address i {
+        margin: 0.3em 0;
+    }
+
+    #about-location {
+        order: 1;
+        max-width: 100%;
+    }
+
+    #about-location h3 {
+        margin-bottom: 0;
+        font-size: 2em;
+    }
+
+    #about-location p {
+        display: none;
+    }
+
+    .detail {
+        flex-direction: column;
+        margin-bottom: 0.5em;
+        gap: 0;
+    }
+
+    .detail img {
+        width: 100%;
+        margin: 2em 0;
+    }
+
+    #detail-1 img {
+        display: none;
+    }
+
+    .detail-description {
+        padding: 0;
+    }
+
+    #detail-3 img {
+        order: 2;
+    }
+
+    #detail-3 .detail-description {
+        order: 1;
+    }
+
+    #detail-1 h3 {
+        font-size: 2em;
+    }
+
+    #cta {
+        text-align: center;
+    }
+
+    #cta .btn {
+        width: 50%;
+    }
+    
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .btn {
+        opacity: 1;
+    }
+
+    #event-description {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #disclaimer {
+        padding: 2em;
+        margin-bottom: 0.5em;
+    }
+
+    #disclaimer h2, #disclaimer p  {
+        margin-bottom: 0.5em;
+        text-align: center;
     }
 
     #subscription-form {
@@ -361,6 +472,7 @@
 
     #about-location h3 {
         margin-bottom: 0;
+        font-size: 2em;
     }
 
     #about-location p {
@@ -392,6 +504,121 @@
 
     #detail-3 .detail-description {
         order: 1;
+    }
+    
+    #detail-1 h3 {
+        font-size: 2em;
+    }
+
+    #cta {
+        text-align: center;
+    }
+
+    #cta .btn {
+        width: 60%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 450px) {
+
+    .btn {
+        opacity: 1;
+    }
+
+    #event-description {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #disclaimer {
+        padding: 2em;
+    }
+
+    #disclaimer h2, #disclaimer p  {
+        margin-bottom: 0.5em;
+        text-align: center;
+    }
+
+    #subscription-form {
+        max-width: 70%;
+        margin-bottom: 2em;
+    }
+
+    .benefits {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        padding: 2em;
+    }
+
+    .benefit {
+        max-width: 100%;
+        margin-bottom: 2em;
+    }
+
+    #location {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 2em 0;
+    }
+
+    #address {
+        order: 2;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    #address i {
+        margin: 0.3em 0;
+    }
+
+    #about-location {
+        order: 1;
+        max-width: 100%;
+    }
+
+    #about-location h3 {
+        margin-bottom: 0;
+        font-size: 2em;
+    }
+
+    #about-location p {
+        display: none;
+    }
+
+    .detail {
+        flex-direction: column;
+        margin-bottom: 0.5em;
+        gap: 0;
+    }
+
+    .detail img {
+        width: 100%;
+        margin: 2em 0;
+    }
+
+    #detail-1 img {
+        display: none;
+    }
+
+    .detail-description {
+        padding: 0;
+    }
+
+    #detail-3 img {
+        order: 2;
+    }
+
+    #detail-3 .detail-description {
+        order: 1;
+    }
+
+    #detail-1 h3 {
+        font-size: 2em;
     }
 
     #cta {
